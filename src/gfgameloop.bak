@@ -1,0 +1,213 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <unistd.h>
+#include "gfgameloop.h"
+#include <string.h>
+#include <SDL_image.h>
+#include "rect.h"
+#include "gfcommon.h"
+#include "gfsprite.h"
+#include "gfinputset_receiver_key1.h"
+#include "gfinputset_receiver_key2.h"
+
+gfgameloop *gfgameloop_new(void) {
+  return (gfgameloop *) malloc(sizeof(gfgameloop));
+}
+
+void gfgameloop_init(gfgameloop *l, gfscreen *scr) {
+  l->level = gflevel_new();
+  l->screen = scr;  
+  l->player1 = l->player2 = NULL;
+  l->y_ground = 10;
+  l->x_margin = 30;
+}
+
+void gfgameloop_finish(gfgameloop *l) {
+  gflevel_destroy(l->level);
+}
+
+void gfgameloop_destroy(gfgameloop *l) {
+  free(l);
+}
+
+int  gfgameloop_run(gfgameloop *l) {
+  int shutdown=0;
+  int offsetxdone=0;
+  int distance=0;
+  gfinputset pass;
+  gfinputset *is1, *is2;
+  gfinputset_receiver_key1 *isr1;
+  gfinputset_receiver_key2 *isr2;
+  rect *r;
+
+
+  is1 = gfinputset_new();
+  is2 = gfinputset_new();
+  isr1 = gfinputset_receiver_key1_new();
+  isr2 = gfinputset_receiver_key2_new();
+  r = rect_new();
+  gfinputset_init(is1);
+  gfinputset_init(is2);
+  gfinputset_init(&pass);
+  gfinputset_receiver_key1_init(isr1);
+  gfinputset_receiver_key2_init(isr2);
+  rect_init(r);
+  r->xlt = 50;
+  r->ylt = 10;
+  r->xrt = 150;
+  r->yrt = 50;
+  r->xrb = 160;
+  r->yrb = 150;
+  r->xlb = 20;
+  r->ylb = 155;
+
+  while (!shutdown) {
+    //Receive input
+    gfinputset_receiver_key1_receive(isr1, is1, &pass);
+    gfinputset_receiver_key2_receive(isr2, is2, &pass);
+
+    //Give then to sprites
+    gfsprite_process_inputset(l->player1, l->player2, is1,
+			      l->x_margin, l->screen->sdl_surface->h - l->y_ground);
+    gfsprite_process_inputset(l->player2, l->player1, is2,
+			      l->x_margin, l->screen->sdl_surface->h - l->y_ground);
+
+    gfsprite_process_colision(l->player1, l->player2);
+//    gfsprite_process_colision(l->player2, l->player1);
+
+    //Key 1 is reserved to exit
+    if (is1->keys[0] & 1)
+      shutdown = 1;
+
+    // Lock the screen for direct access to the pixels
+    if ( SDL_MUSTLOCK(l->screen->sdl_surface) ) {
+      if ( SDL_LockSurface(l->screen->sdl_surface) < 0 ) {
+	fprintf(stderr, "Can't lock screen: %s\n", SDL_GetError());
+	return 0;
+      }
+    }
+
+    //Draw the background
+    gflevel_draw(l->level);
+    rect_draw(r, l->screen);
+    //Draw the sprites
+    offsetxdone=0;
+    gfsprite_draw(l->player1, l->screen, l->screen->sdl_surface->w,
+		  l->x_margin, l->screen->sdl_surface->h - l->y_ground,
+		  &offsetxdone);
+    gfsprite_draw(l->player2, l->screen, l->screen->sdl_surface->w,
+		  l->x_margin, l->screen->sdl_surface->h - l->y_ground,
+		  &offsetxdone);
+    distance = (l->player1->x-l->player2->x);
+    distance = (distance<0) ? -distance : distance;
+    if (offsetxdone!=0) {
+      if (distance< (l->screen->sdl_surface->w-(2*l->x_margin))) {
+	l->level->offsetx += offsetxdone;
+	if ((l->level->offsetx)>l->level->maxxoffset)
+	  l->level->offsetx = l->level->maxxoffset;
+	else if (l->level->offsetx<0) 
+	  l->level->offsetx = 0;
+	else {
+	  l->player1->x -=offsetxdone;
+	  l->player2->x -=offsetxdone;
+	}
+      } else {
+	printf("1\n");
+	
+      }      
+    }
+    gfsprite_be_on_screen(l->player1, l->screen, l->x_margin, l->y_ground);
+    gfsprite_be_on_screen(l->player2, l->screen, l->x_margin, l->y_ground);
+
+    //Update just the part of the display that we've changed
+    if ( SDL_MUSTLOCK(l->screen->sdl_surface) ) {
+      SDL_UnlockSurface(l->screen->sdl_surface);
+    }    
+    SDL_UpdateRect(l->screen->sdl_surface, 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);     
+    
+  }//End of main loop
+  gfinputset_finish(is1);
+  gfinputset_finish(is2);
+  gfinputset_receiver_key1_finish(isr1);
+  gfinputset_receiver_key2_finish(isr2);
+  rect_finish(r);
+  gfinputset_destroy(is1);
+  gfinputset_destroy(is2);
+  gfinputset_receiver_key1_destroy(isr1);
+  gfinputset_receiver_key2_destroy(isr2);
+  rect_destroy(r);
+
+  return 1;
+}
+
+int gfgameloop_loadlevel(gfgameloop *l, char *path, char *level_filename) {
+  FILE *f;
+#define BUFFER_SIZE 10000
+  char buffer[FILE_BUFFER_SIZE];
+  char image_filename[FILE_BUFFER_SIZE];
+  int i;
+  gflevel_init(l->level, l->screen);
+
+  strcpy(buffer, path);
+  strcat(buffer, "/");
+  strcat(buffer, level_filename);
+  f = fopen(buffer, "r"); //Open the file
+  if (!f) {
+    fprintf(stderr, "Couldn't open file '%s'\n", buffer);
+    return 0;
+  }
+  for (i=0; (i<10) && (!feof(f)); i++)    //Skip the ten first lines
+    fgets(buffer, FILE_BUFFER_SIZE-1, f);
+
+  fgets(buffer, FILE_BUFFER_SIZE-1, f);
+  sscanf(buffer, "%d", &(l->level->width));
+  if (feof(f)) return 0;
+  fgets(buffer, FILE_BUFFER_SIZE-1, f);
+  sscanf(buffer, "%d", &(l->level->height));
+  if (feof(f)) return 0;
+
+  fgets(buffer, FILE_BUFFER_SIZE-1, f);
+  sscanf(buffer, "%s", image_filename);
+  if (feof(f)) return 0;
+  strcpy(buffer, path);
+  strcat(buffer, "/");
+  strcat(buffer, image_filename);
+  strcpy(image_filename, buffer);
+  l->level->bg_surface = IMG_Load(image_filename);
+  if (!(l->level->bg_surface)) {
+    fprintf(stderr, "Couldn't load %s\n", image_filename);
+    return 0;
+  }
+
+  l->level->offsety = l->level->bg_surface->h - SCREEN_HEIGHT;
+  if (l->level->offsety<0) {
+    l->level->offsety = l->level->offsety+SCREEN_HEIGHT;
+  }   
+
+  l->player1->x = SCREEN_WIDTH/10;
+  l->player2->x = 9*SCREEN_WIDTH/10;
+  l->level->maxxoffset= l->level->width  - SCREEN_WIDTH;
+  l->level->maxyoffset= l->level->height - SCREEN_HEIGHT;
+
+  fgets(buffer, FILE_BUFFER_SIZE-1, f);
+  sscanf(buffer, "%d", &(l->level->draw_type));
+  if (feof(f)) return 0;
+
+  fclose(f);
+  return 1;
+}
+
+int gfgameloop_freelevel(gfgameloop *l) {
+  gflevel_finish(l->level);
+  return 1;
+}
+
+int gfgameloop_setplayer1(gfgameloop *l, gfsprite *p1) {
+  l->player1 = p1;
+  return 1;
+}
+
+int gfgameloop_setplayer2(gfgameloop *l, gfsprite *p2) {
+  l->player2 = p2;
+  return 1;
+}

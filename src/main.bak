@@ -1,0 +1,60 @@
+#include <stdio.h>
+#include "gfscreen.h"
+#include "gflevel.h"
+#include "gfgameloop.h"
+#include "gfsprite.h"
+
+int main (int argc, char *argv[]) {
+  gfscreen *s;
+  gfgameloop *gloop;
+  gfsprite *p1, *p2;
+
+  //Initialize things
+  s = gfscreen_new();
+  gloop = gfgameloop_new();
+  p1= gfsprite_new();
+  p2= gfsprite_new();
+  gfscreen_init(s);
+  gfgameloop_init(gloop, s);
+  gfsprite_init(p1);
+  gfsprite_init(p2);
+  
+
+  //Load things
+  //Load players
+  if (!gfsprite_load(p1, "../sprites/eduardo", "sprite.txt")) {
+    fprintf(stderr, "Sorry, couldn 't load sprite file!\n");
+    return 1;
+  }
+
+  if (!gfsprite_load(p2, "../sprites/eduardo", "sprite.txt")) {
+        fprintf(stderr, "Sorry, couldn 't load sprite file!\n");
+	return 1;
+  }
+  gfgameloop_setplayer1(gloop, p1);
+  gfgameloop_setplayer2(gloop, p2);
+
+  //Load the level
+  if (!gfgameloop_loadlevel(gloop, "levels", "level01.lev")) {
+        fprintf(stderr, "Sorry, couldn 't load level file!\n");
+	return 1;
+  }
+  //Run the game
+  gfgameloop_run(gloop);
+
+  //Finish and Free things
+  gfgameloop_freelevel(gloop);  
+  gfsprite_unload(p1);
+  gfsprite_unload(p2);
+  gfgameloop_finish(gloop);
+  gfsprite_finish(p1);
+  gfsprite_finish(p2);
+  gfscreen_finish(s);
+
+  gfsprite_destroy(p1);
+  gfsprite_destroy(p2);
+  gfgameloop_destroy(gloop);
+  gfscreen_destroy(s);
+
+  return 0;
+}

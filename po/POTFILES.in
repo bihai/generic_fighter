@@ -1,0 +1,21 @@
+# List of source files containing translatable strings.
+
+## Created by Anjuta - will be overwritten
+## If you don't want it to overwrite it,
+## 	Please disable it in the Anjuta project configuration
+
+# Source files
+src/main.c
+src/gfaction.h
+src/gfframe.c
+src/gfgameloop.c
+src/gfinput.c
+src/gfinputset_receiver_key1.c
+src/gfinputset_receiver_key1.h
+src/gfrect.c
+src/gfrect.h
+src/rect.h
+src/gfsprite.h
+src/gfgameloop.h
+
+

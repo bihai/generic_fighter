@@ -1,0 +1,140 @@
+0.1
+#2
+#3
+#4
+#5
+#6
+#7
+#8
+#9
+#10
+images=25
+sounds=0
+gfrects=1
+frames=36
+actions=17
+inputsets=13
+magics=0
+inputs=13
+image=blls-of-fr01.png ;blls-of-fr01-flip.png #0#0
+image=blls-of-fr02.png ;blls-of-fr02-flip.png #0#1
+image=blls-of-fr03.png ;blls-of-fr03-flip.png #0#2
+image=crchng-strng-pnch01.png ;crchng-strng-pnch01-flip.png ; #3 #3
+image=crchng-strng-pnch02.png ;crchng-strng-pnch02-flip.png ; #3 #4
+image=crchng.png ;crchng-flip.png ; #5 #5
+image=crchng-wk-kck01.png ;crchng-wk-kck01-flip.png ; #6 #6
+image=crchng-wk-kck02.png ;crchng-wk-kck02-flip.png ; #6 #7
+image=crchng-wk-pnch01.png ;crchng-wk-pnch01-flip.png ; #8 #8
+image=crchng-wk-pnch02.png ;crchng-wk-pnch02-flip.png ; #8 #9
+image=dmg.png ;dmg-flip.png ; #10 #10
+image=prvk01.png ;prvk01-flip.png ; #11 #11
+image=prvk02.png ;prvk02-flip.png ; #12 #12
+image=stnd01.png ;stnd01-flip.png ; #13 #13
+image=stnd02.png ;stnd02-flip.png ; #13 #14
+image=stnd03.png ;stnd03-flip.png ; #13 #15
+image=stndng-dfns.png ;stndng-dfns-flip.png ; #16 #16
+image=stndng-strng-pnch01.png ;stndng-strng-pnch01-flip.png ; #17 #17
+image=stndng-strng-pnch02.png ;stndng-strng-pnch02-flip.png ; #17 #18
+image=stndng-wk-pnch01.png ;stndng-wk-pnch01-flip.png ; #19 #19
+image=stndng-wk-pnch02.png ;stndng-wk-pnch02-flip.png ; #19 #20
+image=stnd-strng-kck02.png ;stnd-strng-kck02-flip.png  ; #19 #21
+image=stnd-wk-kck01.png ;stnd-wk-kck01-flip.png ; #22 #22
+image=stnd-wk-kck02.png ;stnd-wk-kck02-flip.png ; #22 #23
+image=crchng-strng-kckX.png ;crchng-strng-kckX-flip.png ; #22 #23
+gfrect=0,100;100,100;0,0;100,0; flip=100,0;0,0;100,100;0,0; 2;1;2;3;4;1
+frame=0,0;0 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=0,0;1 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=0,0;2 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=0,0;3 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=0,0;4 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=0,0;5 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=0,0;6 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=0,0;7 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=0,0;8 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=0,0;9 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=0,0;10 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=0,0;11 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=0,0;12 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=0,0;13 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=0,0;14 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=0,0;15 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=0,0;16 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=0,0;17 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=0,0;18 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=0,0;19 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=0,0;20 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=0,0;21 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=0,0;22 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=0,0;23 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=5,-5;13 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=5,0;14 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=5,5;15 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=-5,-5;13 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=-5,0;14 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=-5,5;15 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=5,0;13 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=5,0;14 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=5,0;15 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=-5,0;13 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=-5,0;14 ;-1 ;0,0,0,0,0,0,0,0,0,0
+frame=-5,0;15 ;-1 ;0,0,0,0,0,0,0,0,0,0
+action=7;7;40;3;          #ação 0
+0,1,2
+action=7;7;40;2;          #ação 1
+3,4
+action=7;7;40;1;          #ação 2
+5
+action=7;7;40;8;          #ação 3
+6,6,6,7,7,7,7,7
+action=7;7;40;2;          #ação 4
+8,9
+action=7;7;40;1;          #ação 5
+10
+action=7;7;40;2;          #ação 6
+11,12
+action=7;7;40;9;          #ação 7
+13,13,13,14,14,14,15,15,15
+action=7;7;40;1;          #ação 8
+16
+action=7;7;40;8;          #ação 9
+17,17,17,17,18,18,18,18
+action=7;7;40;2;          #ação 10
+19,20
+action=7;7;40;1;          #ação 11
+21
+action=7;7;40;2;          #ação 12 - agachar
+22,23
+action=7;7;60;14;          #ação 13 - pula para trás
+24,24,24,24,24,25,25,25,25,26,26,26,26,26
+action=7;7;60;14;          #ação 14 - pula para frente
+27,27,27,27,27,28,28,28,28,29,29,29,29,29
+action=7;7;40;3;          #ação 15 - anda para frente
+30,31,32
+action=7;7;40;3;          #ação 16 - anda para trás
+33,34,35
+inputset=2,0,0,0,0,0,0   #0
+inputset=4,0,0,0,0,0,0   #1
+inputset=8,0,0,0,0,0,0   #2
+inputset=16,0,0,0,0,0,0   #3
+inputset=32,0,0,0,0,0,0   #4
+inputset=64,0,0,0,0,0,0   #5
+inputset=128,0,0,0,0,0,0   #6
+inputset=256,0,0,0,0,0,0   #7
+inputset=512,0,0,0,0,0,0   #8
+inputset=1024,0,0,0,0,0,0   #9
+inputset=24,0,0,0,0,0,0   #10 acima + direita
+inputset=18,0,0,0,0,0,0   #11 acima + esquerda
+inputset=3,2,3,4,5,6,7   #12
+input=0;50;16;-1
+input=1;50;2;-1
+input=2;50;15;-1
+input=3;50;2;-1
+input=4;50;14;-1
+input=5;50;13;-1
+input=6;50;6;-1
+input=7;50;7;-1
+input=8;50;8;-1
+input=9;50;9;-1
+input=10;50;13;-1
+input=11;50;14;-1
+input=12;50;12;-1

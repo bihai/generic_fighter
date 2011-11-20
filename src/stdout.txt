@@ -1,0 +1,528 @@
+Information read from sprite file "../sprites/eduardo/sprite.txt": gfrects=1, frames=36, actions=17, inputsets=13, magics=0, inputs=13
+image file name readed=blls-of-fr01.png ; blls-of-fr01-flip.png
+image file name readed=blls-of-fr02.png ; blls-of-fr02-flip.png
+image file name readed=blls-of-fr03.png ; blls-of-fr03-flip.png
+image file name readed=crchng-strng-pnch01.png ; crchng-strng-pnch01-flip.png
+image file name readed=crchng-strng-pnch02.png ; crchng-strng-pnch02-flip.png
+image file name readed=crchng.png ; crchng-flip.png
+image file name readed=crchng-wk-kck01.png ; crchng-wk-kck01-flip.png
+image file name readed=crchng-wk-kck02.png ; crchng-wk-kck02-flip.png
+image file name readed=crchng-wk-pnch01.png ; crchng-wk-pnch01-flip.png
+image file name readed=crchng-wk-pnch02.png ; crchng-wk-pnch02-flip.png
+image file name readed=dmg.png ; dmg-flip.png
+image file name readed=prvk01.png ; prvk01-flip.png
+image file name readed=prvk02.png ; prvk02-flip.png
+image file name readed=stnd01.png ; stnd01-flip.png
+image file name readed=stnd02.png ; stnd02-flip.png
+image file name readed=stnd03.png ; stnd03-flip.png
+image file name readed=stndng-dfns.png ; stndng-dfns-flip.png
+image file name readed=stndng-strng-pnch01.png ; stndng-strng-pnch01-flip.png
+image file name readed=stndng-strng-pnch02.png ; stndng-strng-pnch02-flip.png
+image file name readed=stndng-wk-pnch01.png ; stndng-wk-pnch01-flip.png
+image file name readed=stndng-wk-pnch02.png ; stndng-wk-pnch02-flip.png
+image file name readed=stnd-strng-kck02.png ; stnd-strng-kck02-flip.png
+image file name readed=stnd-wk-kck01.png ; stnd-wk-kck01-flip.png
+image file name readed=stnd-wk-kck02.png ; stnd-wk-kck02-flip.png
+image file name readed=crchng-strng-kckX.png ; crchng-strng-kckX-flip.png
+gfrect readed=0,100;100,100;0,0; flip=100,0;100,0;0,0;100,100 0,0;2;1;2;3;4;1
+frame readed=mx=0,my=0; img1=011CB7A0;img2=003FC1F0;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=003FC2A0;img2=003FC350;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=003FC400;img2=0124A498;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=003FC4E0;img2=01295008;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=012950A8;img2=01295148;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=011F7498;img2=011F7510;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=01247E20;img2=003FC010;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=01247EA8;img2=01247F48;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=011F75C0;img2=013C9EF8;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=013C9F98;img2=011F7660;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=011F7700;img2=011F77B0;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=01376DE0;img2=01376E90;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=01376F40;img2=003F9C08;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=003F9F88;img2=0124A3B0;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=013C9D78;img2=013C9DF0;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=011F7008;img2=011F70B8;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=0139DF18;img2=01247CA0;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=01247D10;img2=01247DC0;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=011F71C0;img2=011F7270;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=011F7320;img2=011F73D0;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=013CC008;img2=013CC4B0;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=013CC560;img2=013CC610;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=013CC6C0;img2=013CC050;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=013F8468;img2=013F8508;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=5,my=-5; img1=003F9F88;img2=0124A3B0;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=5,my=0; img1=013C9D78;img2=013C9DF0;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=5,my=5; img1=011F7008;img2=011F70B8;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=-5,my=-5; img1=003F9F88;img2=0124A3B0;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=-5,my=0; img1=013C9D78;img2=013C9DF0;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=-5,my=5; img1=011F7008;img2=011F70B8;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=5,my=0; img1=003F9F88;img2=0124A3B0;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=5,my=0; img1=013C9D78;img2=013C9DF0;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=5,my=0; img1=011F7008;img2=011F70B8;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=-5,my=0; img1=003F9F88;img2=0124A3B0;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=-5,my=0; img1=013C9D78;img2=013C9DF0;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=-5,my=0; img1=011F7008;img2=011F70B8;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+actions readed=7;7;40;3
+Frames within this action: 0,1,2,
+actions readed=7;7;40;2
+Frames within this action: 3,4,
+actions readed=7;7;40;1
+Frames within this action: 5,
+actions readed=7;7;40;8
+Frames within this action: 6,6,6,7,7,7,7,7,
+actions readed=7;7;40;2
+Frames within this action: 8,9,
+actions readed=7;7;40;1
+Frames within this action: 10,
+actions readed=7;7;40;2
+Frames within this action: 11,12,
+actions readed=7;7;40;9
+Frames within this action: 13,13,13,14,14,14,15,15,15,
+actions readed=7;7;40;1
+Frames within this action: 16,
+actions readed=7;7;40;8
+Frames within this action: 17,17,17,17,18,18,18,18,
+actions readed=7;7;40;2
+Frames within this action: 19,20,
+actions readed=7;7;40;1
+Frames within this action: 21,
+actions readed=7;7;40;2
+Frames within this action: 22,23,
+actions readed=7;7;60;14
+Frames within this action: 24,24,24,24,24,25,25,25,25,26,26,26,26,26,
+actions readed=7;7;60;14
+Frames within this action: 27,27,27,27,27,28,28,28,28,29,29,29,29,29,
+actions readed=7;7;40;3
+Frames within this action: 30,31,32,
+actions readed=7;7;40;3
+Frames within this action: 33,34,35,
+InputSets readed are: 2,0,0,0,0,0,0
+InputSets readed are: 4,0,0,0,0,0,0
+InputSets readed are: 8,0,0,0,0,0,0
+InputSets readed are: 16,0,0,0,0,0,0
+InputSets readed are: 32,0,0,0,0,0,0
+InputSets readed are: 64,0,0,0,0,0,0
+InputSets readed are: 128,0,0,0,0,0,0
+InputSets readed are: 256,0,0,0,0,0,0
+InputSets readed are: 512,0,0,0,0,0,0
+InputSets readed are: 1024,0,0,0,0,0,0
+InputSets readed are: 24,0,0,0,0,0,0
+InputSets readed are: 18,0,0,0,0,0,0
+InputSets readed are: 3,2,3,4,5,6,7
+inputs readed are=0;50;16;-1
+inputs readed are=1;50;2;-1
+inputs readed are=2;50;15;-1
+inputs readed are=3;50;2;-1
+inputs readed are=4;50;14;-1
+inputs readed are=5;50;13;-1
+inputs readed are=6;50;6;-1
+inputs readed are=7;50;7;-1
+inputs readed are=8;50;8;-1
+inputs readed are=9;50;9;-1
+inputs readed are=10;50;13;-1
+inputs readed are=11;50;14;-1
+inputs readed are=12;50;12;-1
+Information read from sprite file "../sprites/eduardo/sprite.txt": gfrects=1, frames=36, actions=17, inputsets=13, magics=0, inputs=13
+image file name readed=blls-of-fr01.png ; blls-of-fr01-flip.png
+image file name readed=blls-of-fr02.png ; blls-of-fr02-flip.png
+image file name readed=blls-of-fr03.png ; blls-of-fr03-flip.png
+image file name readed=crchng-strng-pnch01.png ; crchng-strng-pnch01-flip.png
+image file name readed=crchng-strng-pnch02.png ; crchng-strng-pnch02-flip.png
+image file name readed=crchng.png ; crchng-flip.png
+image file name readed=crchng-wk-kck01.png ; crchng-wk-kck01-flip.png
+image file name readed=crchng-wk-kck02.png ; crchng-wk-kck02-flip.png
+image file name readed=crchng-wk-pnch01.png ; crchng-wk-pnch01-flip.png
+image file name readed=crchng-wk-pnch02.png ; crchng-wk-pnch02-flip.png
+image file name readed=dmg.png ; dmg-flip.png
+image file name readed=prvk01.png ; prvk01-flip.png
+image file name readed=prvk02.png ; prvk02-flip.png
+image file name readed=stnd01.png ; stnd01-flip.png
+image file name readed=stnd02.png ; stnd02-flip.png
+image file name readed=stnd03.png ; stnd03-flip.png
+image file name readed=stndng-dfns.png ; stndng-dfns-flip.png
+image file name readed=stndng-strng-pnch01.png ; stndng-strng-pnch01-flip.png
+image file name readed=stndng-strng-pnch02.png ; stndng-strng-pnch02-flip.png
+image file name readed=stndng-wk-pnch01.png ; stndng-wk-pnch01-flip.png
+image file name readed=stndng-wk-pnch02.png ; stndng-wk-pnch02-flip.png
+image file name readed=stnd-strng-kck02.png ; stnd-strng-kck02-flip.png
+image file name readed=stnd-wk-kck01.png ; stnd-wk-kck01-flip.png
+image file name readed=stnd-wk-kck02.png ; stnd-wk-kck02-flip.png
+image file name readed=crchng-strng-kckX.png ; crchng-strng-kckX-flip.png
+gfrect readed=0,100;100,100;0,0; flip=100,0;100,0;0,0;100,100 0,0;2;1;2;3;4;1
+frame readed=mx=0,my=0; img1=013F8758;img2=014724F8;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=01472590;img2=01472630;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=014726E0;img2=01472790;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=012234F0;img2=012235A0;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=01223650;img2=01223700;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=012237B0;img2=013CC0F0;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=0121BE10;img2=0121BEC0;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=0121BF70;img2=014BAE38;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=014BAED8;img2=014BAF88;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=013CC1D0;img2=013CC280;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=013CC330;img2=013CC3E0;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=013F8008;img2=0121BCB8;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=0121BD58;img2=013F8050;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=013F8130;img2=013F81E0;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=013F8290;img2=013F8340;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=0121B858;img2=0121B8F8;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=0121B998;img2=014BAC58;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=014BAD08;img2=014BADB8;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=0121BA58;img2=0121BB08;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=0121BBB8;img2=014BA7F8;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=014BA898;img2=014BA938;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=014BA9E8;img2=014BAA98;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=014BAB48;img2=011EF820;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=0,my=0; img1=011EFD08;img2=011EFDB8;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=5,my=-5; img1=013F8130;img2=013F81E0;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=5,my=0; img1=013F8290;img2=013F8340;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=5,my=5; img1=0121B858;img2=0121B8F8;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=-5,my=-5; img1=013F8130;img2=013F81E0;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=-5,my=0; img1=013F8290;img2=013F8340;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=-5,my=5; img1=0121B858;img2=0121B8F8;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=5,my=0; img1=013F8130;img2=013F81E0;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=5,my=0; img1=013F8290;img2=013F8340;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=5,my=0; img1=0121B858;img2=0121B8F8;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=-5,my=0; img1=013F8130;img2=013F81E0;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=-5,my=0; img1=013F8290;img2=013F8340;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+frame readed=mx=-5,my=0; img1=0121B858;img2=0121B8F8;snd=00000000; rects[0-9]=0,0,0,0,0,0,0,0,0,0
+actions readed=7;7;40;3
+Frames within this action: 0,1,2,
+actions readed=7;7;40;2
+Frames within this action: 3,4,
+actions readed=7;7;40;1
+Frames within this action: 5,
+actions readed=7;7;40;8
+Frames within this action: 6,6,6,7,7,7,7,7,
+actions readed=7;7;40;2
+Frames within this action: 8,9,
+actions readed=7;7;40;1
+Frames within this action: 10,
+actions readed=7;7;40;2
+Frames within this action: 11,12,
+actions readed=7;7;40;9
+Frames within this action: 13,13,13,14,14,14,15,15,15,
+actions readed=7;7;40;1
+Frames within this action: 16,
+actions readed=7;7;40;8
+Frames within this action: 17,17,17,17,18,18,18,18,
+actions readed=7;7;40;2
+Frames within this action: 19,20,
+actions readed=7;7;40;1
+Frames within this action: 21,
+actions readed=7;7;40;2
+Frames within this action: 22,23,
+actions readed=7;7;60;14
+Frames within this action: 24,24,24,24,24,25,25,25,25,26,26,26,26,26,
+actions readed=7;7;60;14
+Frames within this action: 27,27,27,27,27,28,28,28,28,29,29,29,29,29,
+actions readed=7;7;40;3
+Frames within this action: 30,31,32,
+actions readed=7;7;40;3
+Frames within this action: 33,34,35,
+InputSets readed are: 2,0,0,0,0,0,0
+InputSets readed are: 4,0,0,0,0,0,0
+InputSets readed are: 8,0,0,0,0,0,0
+InputSets readed are: 16,0,0,0,0,0,0
+InputSets readed are: 32,0,0,0,0,0,0
+InputSets readed are: 64,0,0,0,0,0,0
+InputSets readed are: 128,0,0,0,0,0,0
+InputSets readed are: 256,0,0,0,0,0,0
+InputSets readed are: 512,0,0,0,0,0,0
+InputSets readed are: 1024,0,0,0,0,0,0
+InputSets readed are: 24,0,0,0,0,0,0
+InputSets readed are: 18,0,0,0,0,0,0
+InputSets readed are: 3,2,3,4,5,6,7
+inputs readed are=0;50;16;-1
+inputs readed are=1;50;2;-1
+inputs readed are=2;50;15;-1
+inputs readed are=3;50;2;-1
+inputs readed are=4;50;14;-1
+inputs readed are=5;50;13;-1
+inputs readed are=6;50;6;-1
+inputs readed are=7;50;7;-1
+inputs readed are=8;50;8;-1
+inputs readed are=9;50;9;-1
+inputs readed are=10;50;13;-1
+inputs readed are=11;50;14;-1
+inputs readed are=12;50;12;-1
+event 	inputset received = (p1) 0  (p2) 0
+event 	inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 0  (p2) 8
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 0  (p2) 2
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 0  (p2) 4
+event 	keydown
+inputset received = (p1) 0  (p2) 20
+event 	keyup 
+inputset received = (p1) 0  (p2) 16
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 0  (p2) 16
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 0  (p2) 4
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 0  (p2) 4
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 0  (p2) 16
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 0  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 0  (p2) 64
+event 	keydown
+inputset received = (p1) 0  (p2) 576
+event 	keyup 
+inputset received = (p1) 0  (p2) 64
+event 	keydown
+inputset received = (p1) 0  (p2) 576
+event 	keyup 
+inputset received = (p1) 0  (p2) 64
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 0  (p2) 512
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 0  (p2) 64
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 0  (p2) 64
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 0  (p2) 512
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 0  (p2) 512
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 0  (p2) 512
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 0  (p2) 2
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 0  (p2) 8
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 0  (p2) 2
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 0  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 0  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 0  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 0  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 16  (p2) 0
+event 	keydown
+inputset received = (p1) 16  (p2) 0
+event 	keydown
+inputset received = (p1) 16  (p2) 0
+event 	keyup 
+inputset received = (p1) 16  (p2) 0
+event 	keyup 
+inputset received = (p1) 16  (p2) 0
+event 	keydown
+inputset received = (p1) 16  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 64  (p2) 0
+event 	keydown
+inputset received = (p1) 64  (p2) 0
+event 	keyup 
+inputset received = (p1) 64  (p2) 0
+event 	keyup 
+inputset received = (p1) 64  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 256  (p2) 0
+event 	keydown
+inputset received = (p1) 288  (p2) 0
+event 	keyup 
+inputset received = (p1) 256  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 256  (p2) 0
+event 	keydown
+inputset received = (p1) 1280  (p2) 0
+event 	keyup 
+inputset received = (p1) 1024  (p2) 0
+event 	keydown
+inputset received = (p1) 1280  (p2) 0
+event 	keydown
+inputset received = (p1) 1792  (p2) 0
+event 	keyup 
+inputset received = (p1) 1536  (p2) 0
+event 	keyup 
+inputset received = (p1) 1024  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 1024  (p2) 0
+event 	keydown
+inputset received = (p1) 1280  (p2) 0
+event 	keyup 
+inputset received = (p1) 1024  (p2) 0
+event 	keydown
+inputset received = (p1) 1536  (p2) 0
+event 	keyup 
+inputset received = (p1) 1024  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 512  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 1024  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 1024  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 512  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 1024  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 1024  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 128  (p2) 0
+event 	keydown
+inputset received = (p1) 192  (p2) 0
+event 	keyup 
+inputset received = (p1) 128  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 64  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 64  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 1024  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 1024  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 512  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 256  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 128  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 128  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 128  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 64  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 32  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 64  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 32  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 64  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 32  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 64  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 32  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 64  (p2) 0
+event 	keyup 
+inputset received = (p1) 0  (p2) 0
+event 	keydown
+inputset received = (p1) 1  (p2) 0

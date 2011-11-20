@@ -1,0 +1,27 @@
+
+[filenumbers]
+0=1
+1=1
+2=41
+3=19
+4=18
+
+[filemarkers]
+0=
+1=
+2=
+3=
+4=
+
+[executer]
+RunInTerminal=false
+
+[Project DBase]
+ShowLocals=true
+
+[filelist]
+0=/home/mvalle/projetos/generic_fighter/src/main.c
+1=/home/mvalle/projetos/generic_fighter/src/gfaction.c
+2=/home/mvalle/projetos/generic_fighter/src/gfgameloop.c
+3=/home/mvalle/projetos/generic_fighter/src/gfinputset_receiver_key1.c
+4=/home/mvalle/projetos/generic_fighter/src/gfinputset_receiver_key1.h

@@ -1,0 +1,41 @@
+object formTexto: TformTexto
+  Left = 362
+  Top = 115
+  Width = 498
+  Height = 233
+  VertScrollBar.Range = 41
+  ActiveControl = TextBox
+  Caption = 'formTexto'
+  Color = clBackground
+  PixelsPerInch = 100
+  TextHeight = 19
+  TextWidth = 8
+  object TextBox: TMemo
+    Left = 0
+    Top = 0
+    Width = 498
+    Height = 192
+    Align = alClient
+    Lines.Strings = (
+      'TextBox')
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+    WordWrap = False
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 192
+    Width = 498
+    Height = 41
+    Align = alBottom
+    TabOrder = 1
+    object BitBtn1: TBitBtn
+      Left = 64
+      Top = 8
+      Width = 89
+      Height = 25
+      TabOrder = 0
+      Kind = bkClose
+    end
+  end
+end
